@@ -1,6 +1,6 @@
 module github/notif
 
-go 1.23.2
+go 1.23
 
 require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 // indirect
