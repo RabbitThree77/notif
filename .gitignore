@@ -17,6 +17,9 @@
 #dont push databse to remote cuz why not
 *.db
 
+#ignore local builds
+/dist/
+
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
