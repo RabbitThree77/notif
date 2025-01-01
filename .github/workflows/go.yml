@@ -26,3 +26,10 @@ jobs:
 
     - name: Test
       run: go test -v ./notif.go
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: notif-bin
+        path: notif
+    
